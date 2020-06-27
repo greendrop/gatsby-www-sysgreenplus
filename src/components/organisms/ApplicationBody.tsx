@@ -21,7 +21,7 @@ const items = [
   {
     title: "SkyWayサンプル",
     to: "https://nuxt-skyway-sample.dev.sysgreenplus.net",
-    description: "Amazon APIの仕様変更により、クローズしました。",
+    description: null,
     technology: "JavaScript, Vue.js, Nuxt.js, Vuetify, SkyWay",
     sourceTo: "https://github.com/greendrop/nuxt-skyway-sample",
   },
