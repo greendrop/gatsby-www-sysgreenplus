@@ -75,7 +75,11 @@ const Header: React.FC = () => {
           <Hidden xsDown>
             {menuItems.map(({ title, to }) => {
               return (
-                <Button color="inherit" onClick={() => navigate(to)}>
+                <Button
+                  key={title}
+                  color="inherit"
+                  onClick={() => navigate(to)}
+                >
                   {title}
                 </Button>
               )
@@ -103,6 +107,7 @@ const Header: React.FC = () => {
               {menuItems.map(({ title, to }) => {
                 return (
                   <MenuItem
+                    key={title}
                     onClick={() => {
                       handleClose()
                       navigate(to)
