@@ -8,7 +8,7 @@ const items = [
     to: null,
     description: "このサイトです。",
     technology: "TypeScript, React, Gatsby.js, Material-UI",
-    sourceTo: "https://github.com/gatsby-www-sysgreenplus",
+    sourceTo: "https://github.com/greendrop/gatsby-www-sysgreenplus",
   },
   {
     title: "Amazon自動検索",
